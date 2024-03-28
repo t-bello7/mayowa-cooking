@@ -38,3 +38,7 @@ Things I did
 - added css styling for header in index.html
 - style the logo 
 - stytle the btn and add hover state 
+
+How I arranged the commits
+- Create Readme
+- add project folder setup for html files 
