@@ -21,7 +21,7 @@
                     <li><a class="link" id="program" href="#">About</a></li>
                     <li><a class="link" id="join" href="#">Contact Us</a></li>
                 </ul>
-                <button class="btn" type="button"> Sign up / Login  </button>
+                <a href="./auth.html"><button class="btn" type="button"> Sign up / Login  </button> </a>
             </div>
         </nav>
         <p class="text-dark bg-light">
@@ -35,7 +35,11 @@
         <div class="mg-2 bg-white">
             <div>
                 <h2 class="bold">What African Dish would you like to cook ?</h2>
-                <input class="input" />
+                <div>
+                        <input class="input" />            
+                        <button onclick="window.location.href='./recipes.html'"> Search </button>
+                </div>
+
             </div>
             <p>
                 Popular Searches
@@ -44,47 +48,47 @@
     </header>
 
     <!-- Main Section -->
-    <section class="container">
+    <main class="container">
         <h1 class="main-title"> Popular Recipes </h1>
         <div class="grid recipe-container">
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
             <div class="recipe" >
                 <img src="./assets/imgs/bg-2.jpg" class="recipe-img"/>
                 <span class="recipe-cat"> South African Dish </span>
                 <h3 class="recipe-name"> Bobotie </h3>
-                <button class="btn" type="button"> View </button>
+                <button class="btn" type="button" onclick="window.location.href='./recipe-detail.html'"> View </button>
             </div>
         </div>
-    </section>
+    </main>
 
     <!-- Footer Section -->
     <footer class="flex footer ">
@@ -106,6 +110,7 @@
             </div>
     </footer>
     <script src="https://kit.fontawesome.com/79a71d8460.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./assets/main.js"> </script>
 </body>
 </html>

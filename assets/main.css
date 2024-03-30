@@ -243,6 +243,19 @@ gap: 3rem;
     gap: 1rem;
 }
 
+/* Auth Page */
+.tab-nav .tab-btn.active {
+
+}
+
+.content-box {
+
+}
+
+.content {
+    display: none;
+}
+
 /* Desktop view*/
 @media (min-width: 768px) {
     

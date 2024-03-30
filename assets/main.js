@@ -9,3 +9,21 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     menu.classList.remove('visible');
 });
+
+// https://www.youtube.com/watch?v=xG8W2rU-AgE
+
+$(document).ready(function() {
+    $('.content:first').show()
+    $('.tab-nav li:first').addClass('active')
+
+
+    $('.tab-nav li').click(function(event) {
+        index = $(this).index();
+        $('.tab-nav li').removeClass('active'); 
+        $(this).addClass('active')
+        $('.content').hide()
+        $('.content').eq(index).show()
+
+    })
+
+})
